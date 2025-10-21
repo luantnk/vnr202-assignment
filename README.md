@@ -27,7 +27,7 @@ Trang sẽ tự mở ở **http://localhost:5173**
 ---
 
 ## 🔗 Deployed Web URL  
-✍️ [https://hcm-assignment.vercel.app/](https://hcm-assignment.vercel.app/)
+<!-- ✍️ [https://hcm-assignment.vercel.app/](https://hcm-assignment.vercel.app/) -->
 
 ---
 
