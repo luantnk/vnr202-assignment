@@ -3,32 +3,32 @@ import { Bolt, Target, Globe, Building } from "lucide-react";
 export const reasons = [
   {
     id: "r1",
-    title: "Sức mạnh vô địch",
+    title: "Đổi mới tư duy",
     description:
-      "Đoàn kết tạo sức mạnh vô địch, quyết định mọi thắng lợi trong cách mạng và xây dựng đất nước.",
+      "Nhìn thẳng vào sự thật, đánh giá đúng sự thật, nói rõ sự thật. Kiểm điểm nghiêm túc và rút ra 4 bài học lớn.",
     fullText: `
-Chi tiết:
-Đoàn kết là yếu tố cốt lõi tạo nên sức mạnh tổng hợp của dân tộc Việt Nam. Khi các tầng lớp nhân dân, các lực lượng chính trị và toàn xã hội cùng hướng đến một mục tiêu chung — độc lập, tự do, hạnh phúc — thì nguồn lực vật chất và tinh thần được huy động tối đa, tạo nên sức mạnh vô địch vượt qua mọi khó khăn, thử thách.
+**Đại hội VI (12-1986)** đã thực hiện một cuộc cách mạng trong tư duy khi Đảng dũng cảm "nhìn thẳng vào sự thật, đánh giá đúng sự thật, nói rõ sự thật".
 
-Sức mạnh đó không chỉ đến từ số lượng hay quy mô, mà còn nằm ở ý chí thống nhất, niềm tin vào mục tiêu chung, và tinh thần sẵn sàng hy sinh vì lợi ích tập thể. Khi toàn dân đồng lòng, mỗi cá nhân dù nhỏ bé cũng góp phần tạo nên “lực cộng hưởng” to lớn, giúp dân tộc vững vàng trước mọi biến động lịch sử.
+**Nội dung cốt lõi:**
+- Đảng đã nghiêm túc kiểm điểm, chỉ rõ những "sai lầm nghiêm trọng và kéo dài về chủ trương, chính sách lớn"
+- Nhận ra nguyên nhân xuất phát từ "bệnh chủ quan duy ý chí"
+- Từ bỏ tư duy giáo điều, cứng nhắc để hướng tới thực tiễn
 
-Ví dụ minh họa:
+**4 Bài học lớn được rút ra:**
+1. **Lấy dân làm gốc:** Phải quán triệt tư tưởng "lấy dân làm gốc", mọi chính sách phải xuất phát từ lợi ích nhân dân
+2. **Tôn trọng quy luật:** Phải luôn xuất phát từ thực tế, tôn trọng và hành động theo quy luật khách quan, không chủ quan duy ý chí
+3. **Kết hợp sức mạnh:** Biết kết hợp sức mạnh dân tộc với sức mạnh thời đại, tranh thủ hợp tác quốc tế
+4. **Xây dựng Đảng:** Chăm lo xây dựng Đảng ngang tầm nhiệm vụ cầm quyền, trong sạch vững mạnh
 
-• Trong lịch sử: Trong cuộc kháng chiến chống Pháp và chống Mỹ, nhờ đoàn kết toàn dân dưới sự lãnh đạo của Đảng, Việt Nam đã giành được thắng lợi vĩ đại, bảo vệ độc lập dân tộc.  
-• Trong thời hiện đại: Khi cả nước cùng chung tay chống dịch COVID-19, sự hợp tác giữa Nhà nước, doanh nghiệp và người dân đã tạo nên nguồn sức mạnh tổng hợp, giúp Việt Nam kiểm soát dịch hiệu quả trong giai đoạn đầu.  
-• Trong đời sống cá nhân: Một nhóm học sinh cùng đồng lòng, chia sẻ nhiệm vụ và hỗ trợ nhau trong học tập sẽ đạt kết quả cao hơn nhiều so với việc mỗi người làm riêng lẻ.
+**Ý nghĩa:** Đây là bước đột phá trong nhận thức, mở đường cho toàn bộ công cuộc Đổi Mới sau này.
     `,
-    tags: ["Sức mạnh", "Chiến thắng", "Thống nhất"],
+    tags: ["Tư duy mới", "Kiểm điểm", "Bài học"],
     icon: Bolt,
     colorClass: "from-indigo-500 to-sky-500",
     sources: [
       {
-        title: "Tư tưởng Hồ Chí Minh về sức mạnh đoàn kết",
-        url: "https://sotaydangvien.quangngai.dcs.vn/hoat-dong-dang-bo-chinh-quyen/dang-bo-thanh-pho-quang-ngai/tu-tuong-ho-chi-minh-ve-dai-doan-ket-dan-toc.html",
-      },
-      {
-        title: "Hồ Chí Minh Toàn tập, tập 15, tr. 614",
-        url: "https://hochiminh.vn/Uploads/2018/6/2/14/HO%20CHI%20MINH%20TOAN%20TAP%20-%20TAP%2015.pdf",
+        title: "Văn kiện Đại hội VI - Đảng Cộng sản Việt Nam",
+        url: "https://dangcongsan.vn",
       },
     ],
     image:
@@ -37,102 +37,128 @@ Ví dụ minh họa:
   },
   {
     id: "r2",
-    title: "Mục tiêu – Nhiệm vụ – Chiến lược",
+    title: "Đổi mới kinh tế",
     description:
-      "Đoàn kết là mục tiêu hàng đầu, là nhiệm vụ chiến lược của Đảng trong suốt quá trình cách mạng.",
+      "Xóa bỏ cơ chế tập trung quan liêu, bao cấp. Chuyển sang hạch toán kinh doanh, kết hợp kế hoạch với thị trường, phát triển nhiều thành phần kinh tế.",
     fullText: `
-Chi tiết:
-Đại đoàn kết dân tộc theo Hồ Chí Minh vừa là mục tiêu (một xã hội đoàn kết, thống nhất), vừa là nhiệm vụ (phải xây dựng và củng cố khối đại đoàn kết) và cũng là đường lối chiến lược xuyên suốt của Đảng và cách mạng. Việc thực hiện đại đoàn kết nghĩa là huy động mọi tầng lớp, mọi lực lượng chính trị — nhân sĩ, trí thức, công nhân, nông dân, các dân tộc, tôn giáo — cùng tham gia, gắn lợi ích cá nhân với lợi ích chung, để tạo thành sức mạnh tập thể đưa đất nước tới những mục tiêu lớn về độc lập, phát triển và tiến bộ xã hội. Chính sách đoàn kết phải đi kèm với tinh thần khoan dung, tôn trọng khác biệt và phương pháp tập hợp rộng rãi, chứ không phải loại trừ.
+**Đại hội VI** đề ra đường lối đổi mới toàn diện nền kinh tế, tập trung vào ba trụ cột chính:
 
-Ví dụ:
+**1. Xóa bỏ cơ chế cũ:**
+- Xóa bỏ cơ chế tập trung quan liêu, hành chính, bao cấp đã lỗi thời
+- Loại bỏ hệ thống phân phối theo tem phiếu
+- Giải thể các trạm kiểm soát hàng hóa trên đường
 
-• Lịch sử: Chính sách “mặt trận dân tộc thống nhất” (Mặt trận Việt Minh, sau này là Mặt trận Dân tộc Thống nhất) đã tập hợp nhiều lực lượng trong cuộc kháng chiến giành độc lập.  
-• Thời hiện đại: Các chương trình vận động toàn dân tham gia xây dựng nông thôn mới, an sinh xã hội, hoặc các chiến dịch quốc gia (ví dụ phòng, chống dịch) đều dựa trên nguyên tắc huy động, phối hợp nhiều lực lượng.  
-• Cá nhân/nhóm nhỏ: Một dự án cộng đồng (ví dụ nâng cấp trường học, làm tuyến đường liên thôn) khi có sự đồng thuận và đóng góp của dân cư địa phương sẽ hoàn thành nhanh hơn và bền vững hơn.
+**2. Chuyển đổi cơ chế mới:**
+- Chuyển sang cơ chế hạch toán, kinh doanh
+- Kết hợp kinh tế kế hoạch với thị trường có sự quản lý của Nhà nước
+- Thực hiện cơ chế một giá thống nhất
+
+**3. Phát triển nhiều thành phần kinh tế:**
+- Thực hiện nhất quán chính sách phát triển nhiều thành phần kinh tế
+- Kinh tế nhà nước, tập thể, tư nhân, cá thể đều được khuyến khích phát triển
+- Tạo môi trường cạnh tranh lành mạnh
+
+**3 Chương trình mục tiêu:**
+- Lương thực - thực phẩm
+- Hàng tiêu dùng
+- Hàng xuất khẩu
+
+**Kết quả:** Đây là bước đột phá mở đường cho sự phát triển kinh tế sau này.
     `,
-    tags: ["Mục tiêu", "Nhiệm vụ", "Chiến lược"],
+    tags: ["Kinh tế", "Thị trường", "Nhiều thành phần"],
     icon: Target,
     colorClass: "from-teal-400 to-cyan-500",
     sources: [
       {
-        title:
-          "Đại đoàn kết dân tộc là vấn đề có ý nghĩa chiến lược, quyết định đối với sự nghiệp cách mạng",
-        url: "https://www.hcmcpv.org.vn/tin-tuc/tu-tuong-ho-chi-minh-ve-dai-doan-ket-%E2%80%93-anh-duoc-soi-duong-cho-cach-mang-viet-nam-1491865234",
-      },
-      {
-        title:
-          "Đại đoàn kết toàn dân là đường lối chiến lược của cách mạng Việt Nam",
-        url: "https://binhphuoc.gov.vn/vi/news/hoc-tap-va-lam-theo-bac/tu-tuong-ho-chi-minh-ve-dai-doan-ket-toan-dan-toc-31081.html",
+        title: "Nghị quyết Đại hội VI về đổi mới kinh tế",
+        url: "https://dangcongsan.vn",
       },
     ],
     image:
-      "https://th.bing.com/th/id/R.a8f6ec1de361b909ae02f5c1278698e4?rik=Vdz6JvDkA70t2w&riu=http%3a%2f%2fvannghedanang.org.vn%2fapp%2fupload%2fpost%2f2016-09-19%2f20160919085218_tai_xuong.jpg&ehk=ZTKFmSiu8xThZDxVw%2b3samJN6N9wavKgCNEszEK5Wl0%3d&risl=&pid=ImgRaw&r=0",
-    imageAlt: "Giao lưu quốc tế - minh hoạ đoàn kết quốc tế",
+      "https://i.ibb.co/9yW8Qhm/economic-reform.jpg",
+    imageAlt: "Đổi mới kinh tế 1986",
   },
   {
     id: "r3",
-    title: "Dân tộc gắn liền quốc tế",
+    title: "Đổi mới chính trị và xã hội",
     description:
-      "Kết hợp sức mạnh dân tộc với sức mạnh thời đại, tạo nên sức mạnh tổng hợp trong xây dựng và bảo vệ Tổ quốc.",
+      "Phát huy quyền làm chủ tập thể của nhân dân lao động. Thực hiện dân biết, dân bàn, dân làm, dân kiểm tra.",
     fullText: `
-Chi tiết:
-Hồ Chí Minh nhìn nhận cách mạng Việt Nam là một bộ phận trong phong trào giải phóng dân tộc và tiến bộ của thế giới. Vì vậy, đoàn kết quốc tế — nghĩa là tranh thủ tình cảm, ủng hộ, và hợp tác với các lực lượng tiến bộ trên thế giới — là cần thiết để tăng cường sức mạnh trong lúc đấu tranh và trong xây dựng đất nước. Đoàn kết quốc tế không mâu thuẫn với độc lập dân tộc; ngược lại, nó giúp tranh thủ viện trợ, học hỏi kinh nghiệm, bảo vệ lợi ích và nâng cao vị thế của đất nước trên trường quốc tế, đồng thời góp phần vào hòa bình, công bằng toàn cầu. Nguyên tắc là tôn trọng độc lập, bình đẳng và lợi ích chung.
+**Đại hội VI** không chỉ đổi mới kinh tế mà còn đổi mới cả hệ thống chính trị và xã hội:
 
-Ví dụ:
+**1. Dân chủ hóa xã hội:**
+- Phát huy quyền làm chủ tập thể của nhân dân lao động
+- Thực hiện nguyên tắc "dân biết, dân bàn, dân làm, dân kiểm tra"
+- Tăng cường vai trò giám sát của nhân dân đối với bộ máy nhà nước
 
-• Lịch sử: Trong kháng chiến, phong trào quốc tế ủng hộ công lý cho Việt Nam (về ngoại giao, ủng hộ tinh thần, viện trợ) góp phần quan trọng cho cuộc đấu tranh.  
-• Thời hiện đại: Việt Nam tham gia ASEAN, Liên Hợp Quốc, đóng góp lực lượng gìn giữ hòa bình, ký kết hiệp định kinh tế — thể hiện vừa giữ độc lập vừa hợp tác quốc tế để phát triển.  
-• Cá nhân/đơn vị: Các tổ chức phi chính phủ, trường đại học hợp tác nghiên cứu quốc tế để nâng cao trình độ chuyên môn và tiếp thu công nghệ, kỹ thuật mới.
+**2. Bốn nhóm chính sách xã hội:**
+- **Kế hoạch hóa dân số và giải quyết việc làm:** Kiểm soát tốc độ tăng dân số, tạo việc làm cho người lao động
+- **Thực hiện công bằng xã hội:** Thu hẹp khoảng cách giàu nghèo, đảm bảo công bằng trong phân phối
+- **Chăm lo giáo dục, văn hóa, sức khỏe:** Nâng cao trình độ dân trí và chăm sóc sức khỏe nhân dân
+- **Xây dựng chính sách bảo trợ xã hội:** Hỗ trợ người già, trẻ em, người có công và đối tượng khó khăn
+
+**3. Xây dựng hệ thống chính trị:**
+- Đổi mới tổ chức và hoạt động của Đảng
+- Tăng cường vai trò của Mặt trận và các đoàn thể
+- Xây dựng bộ máy nhà nước trong sạch, hiệu quả
+
+**Ý nghĩa:** Tạo nền tảng cho một xã hội dân chủ, công bằng và tiến bộ.
     `,
-    tags: ["Dân tộc", "Quốc tế", "Thời đại"],
+    tags: ["Dân chủ", "Chính sách xã hội", "Công bằng"],
     icon: Globe,
     colorClass: "from-emerald-500 to-teal-500",
     sources: [
       {
-        title: "Cách mạng Việt Nam là bộ phận của cách mạng thế giới",
-        url: "https://tulieuvankien.dangcongsan.vn/c-mac-angghen-lenin-ho-chi-minh/ho-chi-minh/nghien-cuu-hoc-tap-tu-tuong/duong-cach-menh-2426",
-      },
-      {
-        title: "Học viện Lục quân - Chuyên đề đoàn kết quốc tế",
-        url: "https://hvlq.vn/trang-chu/hoc-tap-va-lam-theo-tu-tuong-dao-duc-phong-cach-ho-chi-minh/tu-tuong-ho-chi-minh/tu-tuong-cua-chu-tich-ho-chi-minh-ve-doan-ket-quoc-te2.html",
+        title: "Văn kiện Đại hội VI về đổi mới chính trị xã hội",
+        url: "https://dangcongsan.vn",
       },
     ],
     image:
-      "https://tse2.mm.bing.net/th/id/OIP.0jN4NVEvDZNDF-U0cslgkwHaE7?cb=12&rs=1&pid=ImgDetMain&o=7&rm=3",
-    imageAlt: "Giao lưu quốc tế - minh hoạ đoàn kết quốc tế",
+      "https://i.ibb.co/k5yqTsZ/social-reform.jpg",
+    imageAlt: "Đổi mới chính trị xã hội",
   },
   {
     id: "r4",
-    title: "Xây dựng Chủ nghĩa Xã hội",
+    title: "Đổi mới đối ngoại",
     description:
-      "Đoàn kết giúp khắc phục khó khăn, huy động nguồn lực, xây dựng chủ nghĩa xã hội và phát triển bền vững.",
+      "Tăng cường quan hệ với Liên Xô và các nước xã hội chủ nghĩa. Bình thường hóa với Trung Quốc. Tăng cường quan hệ với Đông Dương.",
     fullText: `
-Chi tiết:
-Đoàn kết là nền tảng để huy động nguồn lực xã hội cho việc xây dựng Chủ nghĩa Xã hội: từ việc huy động lao động, trí tuệ, đến tổ chức quản lý, phát triển kinh tế — văn hóa — xã hội. Theo tư tưởng Hồ Chí Minh, xây dựng xã hội tiến bộ cần dựa vào nhân dân, phát huy tính tích cực, sáng tạo của mọi người; công bằng xã hội, nâng cao đời sống nhân dân là mục tiêu cốt lõi. Vì vậy, đại đoàn kết giúp tạo điều kiện cho các chính sách phân phối, phát triển bền vững và thực hiện tiến bộ xã hội.
+**Đại hội VI** đề ra đường lối đối ngoại mới, linh hoạt và thực tế:
 
-Ví dụ:
+**1. Tăng cường hữu nghị với Liên Xô và XHCN:**
+- Tăng cường hữu nghị và hợp tác toàn diện với Liên Xô
+- Củng cố quan hệ với các nước xã hội chủ nghĩa
+- Học hỏi kinh nghiệm cải cách từ các nước anh em
 
-• Lịch sử: Sau kháng chiến, công cuộc phục hồi, xây dựng lại cơ sở hạ tầng và tổ chức sản xuất cần huy động sức người, sức của trong dân.  
-• Thời hiện đại: Các chương trình phát triển giáo dục, y tế, xóa đói giảm nghèo và chính sách hỗ trợ doanh nghiệp nhỏ đều cần sự đồng thuận xã hội và phối hợp giữa Nhà nước, doanh nghiệp, cộng đồng.  
-• Cá nhân/đơn vị: Hợp tác giữa doanh nghiệp xã hội, chính quyền địa phương và cộng đồng trong dự án phát triển nghề truyền thống hoặc hệ sinh thái khởi nghiệp ở tỉnh/huyện.
+**2. Bình thường hóa quan hệ với Trung Quốc:**
+- Chủ động tìm kiếm giải pháp bình thường hóa quan hệ
+- Giải quyết các vấn đề tồn đọng bằng đối thoại
+- Đặt lợi ích quốc gia lên trên hết
+
+**3. Tăng cường quan hệ đặc biệt với ba nước Đông Dương:**
+- Duy trì và phát triển quan hệ đặc biệt với Lào và Campuchia
+- Hợp tác toàn diện trong nhiều lĩnh vực
+- Cùng nhau phát triển và ổn định khu vực
+
+**4. Mở rộng quan hệ:**
+- Từng bước mở rộng quan hệ với các nước trong khu vực
+- Chuẩn bị cho việc phá vỡ thế bao vây cấm vận
+- Tạo môi trường quốc tế thuận lợi cho đổi mới
+
+**Ý nghĩa:** Đây là tiền đề quan trọng cho việc Việt Nam sau này gia nhập ASEAN (1995) và bình thường hóa với Mỹ (1995).
     `,
-    tags: ["Khó khăn", "CNXH", "Phát triển"],
+    tags: ["Đối ngoại", "Hợp tác", "Hội nhập"],
     icon: Building,
     colorClass: "from-violet-500 to-indigo-500",
     sources: [
       {
-        title:
-          "Đại đoàn kết dân tộc - Động lực chủ yếu phát huy sức mạnh Nhân dân trong giai đoạn hiện nay",
-        url: "https://mattran.org.vn/hoat-dong/dai-doan-ket-dan-toc-dong-luc-chu-yeu-phat-huy-suc-manh-nhan-dan-trong-giai-doan-hien-nay-55174.html",
-      },
-      {
-        title: "Hồ Chí Minh Toàn tập, tập 11 (tr. 362)",
-        url: "https://tulieuvankien.dangcongsan.vn/Uploads/2018/6/2/14/HO%20CHI%20MINH%20TOAN%20TAP%20-%20TAP%2011.pdf",
+        title: "Nghị quyết Đại hội VI về đối ngoại",
+        url: "https://dangcongsan.vn",
       },
     ],
     image:
-      "https://th.bing.com/th/id/OIP.Xw8pKtlbW9uyXpql9mtoEAHaEr?w=290&h=183&c=7&r=0&o=7&cb=12&dpr=1.3&pid=1.7&rm=3",
-    imageAlt: "Giao lưu quốc tế - minh hoạ đoàn kết quốc tế",
+      "https://i.ibb.co/cX8fKWF/foreign-policy.jpg",
+    imageAlt: "Đổi mới đối ngoại",
   },
 ];
 

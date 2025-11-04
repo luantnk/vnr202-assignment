@@ -3,61 +3,69 @@ export const introDetails = [
   {
     id: "i1",
     step: 1,
-    title: "Đại đoàn kết dân tộc",
+    title: "Bối cảnh khủng hoảng kinh tế - xã hội",
     summary:
-      "Đoàn kết mọi tầng lớp, giai cấp, dân tộc, tôn giáo — cùng mục tiêu yêu nước và xây dựng cuộc sống ấm no, hạnh phúc cho nhân dân.",
-    fullText: `Đại đoàn kết dân tộc là tư tưởng nhấn mạnh sự liên kết toàn dân — không phân biệt tầng lớp, tôn giáo hay địa vị xã hội — trên cơ sở lợi ích dân tộc. 
-Nội dung chính:
-- Tinh thần: yêu nước, tôn trọng đa dạng nội bộ.
-- Mục tiêu: giữ vững độc lập, nâng cao đời sống nhân dân.
-- Triển khai: chính sách dân sinh, kênh đối thoại xã hội, khuyến khích hợp tác cộng đồng.
+      "Đại hội VI diễn ra trong bối cảnh Việt Nam đang bị bao vây, cấm vận và ở tình trạng khủng hoảng kinh tế-xã hội nghiêm trọng.",
+    fullText: `Đại hội VI của Đảng diễn ra trong bối cảnh đất nước đang đối mặt với những thách thức nghiêm trọng:
 
-Ví dụ thực tiễn:
-- Các chương trình an sinh xã hội, hợp tác cộng đồng.
-- Chính sách đoàn kết dân tộc trong văn kiện, pháp luật.
+**Tình trạng kinh tế:**
+- Lương thực, thực phẩm, hàng tiêu dùng đều khan hiếm
+- Lạm phát tăng phi mã: 300% năm 1985, lên tới 774% năm 1986
+- Nền kinh tế tập trung quan liêu, bao cấp không còn hiệu quả
 
-Nguồn tham khảo:
-- Văn kiện Đảng, sách giáo khoa lịch sử và các bài nghiên cứu chuyên ngành.`,
-    tags: ["Toàn dân", "Toàn diện", "Bền vững"],
+**Tình trạng xã hội:**
+- Các hiện tượng tiêu cực, vi phạm pháp luật diễn ra khá phổ biến
+- Vượt biên trái phép xảy ra nhiều nơi
+- Đời sống nhân dân gặp nhiều khó khăn
+
+**Hoàn cảnh quốc tế:**
+- Việt Nam đang bị các đế quốc và thế lực thù địch bao vây, cấm vận
+- Liên Xô và các nước xã hội chủ nghĩa đều tiến hành cải tổ
+
+**Kết luận:** Đổi mới đã trở thành đòi hỏi bức thiết của tình hình đất nước.`,
+    tags: ["Khủng hoảng", "Lạm phát", "Bao vây"],
     sources: [
       {
-        title:
-          "MOET — Tài liệu chương: Tư tưởng Hồ Chí Minh (văn bản hướng dẫn/giáo trình)",
-        url: "https://moet.gov.vn/van-ban/vbdh/Pages/chi-tiet-van-ban.aspx?ItemID=2729#divShowDialogDownload",
+        title: "Văn kiện Đại hội VI - Đảng Cộng sản Việt Nam",
+        url: "https://dangcongsan.vn",
       },
     ],
-    color: "from-cyan-500 to-teal-600",
-
+    color: "from-red-500 to-orange-600",
     image:
-      "https://nhn.1cdn.vn/2023/08/19/red-grey-modern-hiv-aids-health-infographic-800-2300-px-_page-0001.jpg",
-    imageAlt: "Cộng đồng đang hợp tác - minh hoạ đại đoàn kết dân tộc",
+      "https://i.ibb.co/QdB7hFm/vietnam-crisis-1986.jpg",
+    imageAlt: "Bối cảnh khủng hoảng trước Đổi Mới 1986",
   },
   {
     id: "i2",
     step: 2,
-    title: "Đoàn kết quốc tế",
+    title: "Nhận thức về sai lầm và bệnh chủ quan",
     summary:
-      "Hợp tác với lực lượng tiến bộ trên thế giới để tạo sức mạnh thời đại — trên cơ sở độc lập và lợi ích dân tộc.",
-    fullText: `Đoàn kết quốc tế là hoạt động kết nối, hợp tác với các lực lượng tiến bộ, các phong trào bạn để cùng ủng hộ những mục tiêu chính nghĩa như độc lập, hòa bình và tiến bộ xã hội.
-Nội dung chính:
-- Nguyên tắc: độc lập, tự chủ; cùng có lợi.
-- Hình thức: ngoại giao, hợp tác khoa học, văn hóa, đoàn thể.
-- Mục tiêu: tăng cường vị thế quốc gia, đóng góp cho phong trào tiến bộ quốc tế.
+      "Đảng nghiêm túc kiểm điểm, chỉ rõ những sai lầm nghiêm trọng và kéo dài về chủ trương, chính sách xuất phát từ bệnh chủ quan duy ý chí.",
+    fullText: `Đại hội VI đánh dấu bước chuyển lịch sử khi Đảng "nhìn thẳng vào sự thật, đánh giá đúng sự thật, nói rõ sự thật":
 
-Ví dụ thực tiễn:
-- Trao đổi học thuật, viện trợ phát triển, hoạt động ngoại giao đa phương.`,
-    tags: ["Chiến lược", "Cầu nối", "Hợp tác"],
+**Những sai lầm được chỉ ra:**
+- Sai lầm nghiêm trọng và kéo dài về chủ trương, chính sách lớn
+- Xuất phát từ "bệnh chủ quan duy ý chí"
+- Cơ chế tập trung quan liêu, hành chính, bao cấp đã lỗi thời
+
+**4 Bài học lớn:**
+1. Phải quán triệt tư tưởng "lấy dân làm gốc"
+2. Phải luôn xuất phát từ thực tế, tôn trọng và hành động theo quy luật khách quan
+3. Biết kết hợp sức mạnh dân tộc với sức mạnh thời đại
+4. Chăm lo xây dựng Đảng ngang tầm nhiệm vụ cầm quyền
+
+**Ý nghĩa:** Đây là bước đầu tiên để đất nước thoát khỏi khủng hoảng - thừa nhận sai lầm và quyết tâm thay đổi.`,
+    tags: ["Kiểm điểm", "Bài học", "Thực tế"],
     sources: [
       {
-        title:
-          "Tạp chí Cộng sản — Vận dụng tư tưởng Hồ Chí Minh về đoàn kết, hợp tác quốc tế",
-        url: "https://www.tapchicongsan.org.vn/...",
+        title: "Nghị quyết Đại hội VI - Đảng Cộng sản Việt Nam",
+        url: "https://dangcongsan.vn",
       },
     ],
-    color: "from-cyan-500 to-teal-600",
+    color: "from-amber-500 to-yellow-600",
     image:
-      "https://th.bing.com/th/id/R.a8f6ec1de361b909ae02f5c1278698e4?rik=Vdz6JvDkA70t2w&riu=http%3a%2f%2fvannghedanang.org.vn%2fapp%2fupload%2fpost%2f2016-09-19%2f20160919085218_tai_xuong.jpg&ehk=ZTKFmSiu8xThZDxVw%2b3samJN6N9wavKgCNEszEK5Wl0%3d&risl=&pid=ImgRaw&r=0",
-    imageAlt: "Giao lưu quốc tế - minh hoạ đoàn kết quốc tế",
+      "https://i.ibb.co/7XmFPv7/党的改革.jpg",
+    imageAlt: "Đảng nhìn nhận và sửa sai",
   },
 ];
 

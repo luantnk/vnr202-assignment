@@ -15,7 +15,7 @@ const HeroSection = () => {
     // Soft teal / cyan gradient (gentle & modern)
     <section
       className="relative min-h-screen bg-gradient-to-br from-teal-700 via-cyan-600 to-cyan-400 overflow-hidden"
-      aria-label="Hero - Đại đoàn kết dân tộc"
+      aria-label="Hero - Đổi Mới 1986"
     >
       {/* Background glass & patterns (subtle) */}
       <div className="absolute inset-0 pointer-events-none">
@@ -64,14 +64,14 @@ const HeroSection = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-sky-50 mb-5 md:mb-8 leading-tight">
             <div data-aos="zoom-out-up">
               <span className="block mb-1 md:mb-2 text-lg sm:text-xl md:text-2xl font-semibold">
-                Tư tưởng Hồ Chí Minh về
+                Công cuộc
               </span>
             </div>
 
             <div data-aos="zoom-out-up" className="mt-1">
               {/* softer clipped text gradient */}
               <span className="block bg-gradient-to-r from-cyan-100 via-teal-100 to-emerald-100 bg-clip-text text-transparent">
-                Đại đoàn kết dân tộc và Đoàn kết quốc tế
+                Đổi Mới 1986 - 1996
               </span>
             </div>
           </h1>
@@ -80,7 +80,7 @@ const HeroSection = () => {
           <div className="mx-auto max-w-3xl">
             <TextReveal
               className="text-sky-50/95"
-              text="Đại đoàn kết dân tộc và đoàn kết quốc tế là chiến lược cách mạng xuyên suốt, tạo nên sức mạnh tổng hợp"
+              text="Đưa đất nước vượt qua khủng hoảng, bước vào thời kỳ công nghiệp hóa, hiện đại hóa"
             />
           </div>
 

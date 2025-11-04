@@ -1,57 +1,86 @@
-import { Globe, TrendingUp, Flag, Star, Users, Building2 } from "lucide-react";
+import { Rocket, TrendingUp, Flag, Star, Users, Building2 } from "lucide-react";
 
 export const impacts = [
   {
     id: 1,
-    icon: Globe,
-    title: "Đại đoàn kết dân tộc",
+    icon: Rocket,
+    title: "Từ Khoán 10 đến Cường quốc Nông sản",
     description:
-      "Đại đoàn kết dân tộc là chiến lược cách mạng lâu dài nhằm quy tụ mọi giai cấp, tầng lớp, dân tộc và tôn giáo thành một khối thống nhất, phát huy sức mạnh tổng hợp của toàn dân. Sự đoàn kết này giúp bảo vệ độc lập, chủ quyền, giữ vững ổn định chính trị – xã hội và tạo nền tảng cho công cuộc xây dựng, phát triển đất nước.",
-    fullText: `Mục tiêu: Xây dựng khối đoàn kết vững chắc giữa mọi giai tầng trong nước, tạo sức mạnh tổng hợp cho cách mạng.\n
-Nội dung:\n
-- Là đường lối chiến lược xuyên suốt giúp giành độc lập, thống nhất và bảo vệ Tổ quốc.\n
-- Gắn kết công nhân, nông dân, trí thức, dân tộc thiểu số, tôn giáo… thành mặt trận thống nhất.\n
-- Biến sức mạnh riêng lẻ thành sức mạnh dân tộc toàn diện, đủ sức vượt qua kẻ thù và khó khăn lịch sử.\n
-Ví dụ thực tế: Thành công của Cách mạng Tháng Tám 1945 và kháng chiến chống Pháp – Mỹ đều dựa vào khối đại đoàn kết dân tộc.`,
-    tags: ["Đại Đoàn Kết", "Dân Tộc", "Sức Mạnh Toàn Dân"],
-    color: "from-blue-500 to-blue-600",
-    bgColor: "bg-blue-50",
-    textColor: "text-blue-800",
-  },
-  {
-    id: 2,
-    icon: TrendingUp,
-    title: "Đoàn kết quốc tế",
-    description:
-      "Đoàn kết quốc tế mở rộng sức mạnh cách mạng ra ngoài biên giới, gắn phong trào cách mạng Việt Nam với phong trào giải phóng dân tộc và phong trào công nhân thế giới. Nó góp phần tạo sự ủng hộ, hậu thuẫn về tinh thần, vật chất và chính trị từ bạn bè năm châu, thúc đẩy hoà bình, tiến bộ xã hội và đấu tranh chống áp bức, bóc lột trên phạm vi toàn cầu.",
-    fullText: `Mục tiêu: Liên kết sức mạnh dân tộc với sức mạnh thời đại, tạo hậu thuẫn quốc tế cho sự nghiệp cách mạng.\n
-Nội dung:\n
-- Giúp Việt Nam tranh thủ sự ủng hộ vật chất và tinh thần từ các nước xã hội chủ nghĩa, phong trào giải phóng dân tộc, phong trào hòa bình.\n
-- Góp phần vào cách mạng thế giới: cùng nhân dân tiến bộ chống chủ nghĩa đế quốc, bảo vệ hòa bình, công lý.\n
-- Khẳng định tinh thần quốc tế trong sáng – yêu nước gắn với nghĩa vụ quốc tế.\n
-- Tạo vị thế Việt Nam là một phần quan trọng của phong trào cách mạng toàn cầu.`,
-    tags: ["Đoàn Kết Quốc Tế", "Sức Mạnh Thời Đại", "Hợp Tác Quốc Tế"],
+      "Nghị quyết 10 (Khoán 10) đã tạo ra bước ngoặt lịch sử, biến Việt Nam từ nước thiếu ăn thành một trong những cường quốc xuất khẩu nông sản hàng đầu thế giới.",
+    fullText: `**Bối cảnh (Ngày ấy):**
+Đất nước thiếu lương thực nghiêm trọng, lạm phát phi mã (lên tới 774% năm 1986), và "nạn đói xảy ra ở nhiều nơi" vào năm 1988.
+
+**Quyết sách (Ngày ấy):**
+Đảng ban hành Nghị quyết 10 (4-1988), hay còn gọi là "Khoán 10", giao quyền sử dụng đất ổn định cho nông dân.
+
+**Kết quả (Ngày ấy):**
+Quyết sách này ngay lập tức tạo ra động lực. Chỉ một năm sau, "đến năm 1989, Việt Nam đã đáp ứng được nhu cầu lương thực, có dự trữ và bắt đầu xuất khẩu".
+
+**Liên hệ thực tiễn (Hôm nay):**
+Đây chính là "viên gạch" đầu tiên biến Việt Nam từ một nước thiếu ăn thành một trong những cường quốc xuất khẩu nông sản hàng đầu thế giới:
+- **Gạo:** Việt Nam là một trong 3 nước xuất khẩu gạo lớn nhất thế giới
+- **Cà phê:** Đứng thứ 2 thế giới về xuất khẩu cà phê
+- **Hạt điều:** Xuất khẩu hạt điều lớn nhất thế giới
+- **Thủy sản:** Trong top đầu thế giới về xuất khẩu thủy sản
+
+Mọi người nông dân hôm nay được toàn quyền quyết định trên mảnh đất của mình, làm giàu từ nông nghiệp... tất cả bắt nguồn từ tư duy đột phá của "Khoán 10".`,
+    tags: ["Khoán 10", "Nông nghiệp", "Xuất khẩu"],
     color: "from-green-500 to-green-600",
     bgColor: "bg-green-50",
     textColor: "text-green-800",
+  },
+  {
+    id: 2,
+    icon: Building2,
+    title: "Từ Mở cửa đến Dòng vốn FDI",
+    description:
+      "Luật Đầu tư nước ngoài 1987 mở cửa cho FDI, tạo nền tảng cho hàng ngàn dự án đầu tư lớn như Samsung, LG, Intel vào Việt Nam và hội nhập quốc tế sâu rộng.",
+    fullText: `**Quyết sách (Ngày ấy):**
+Ngay sau Đổi Mới, chúng ta đã ban hành "Luật Đầu tư nước ngoài" (có hiệu lực từ 1-1-1988). Sau đó là hàng loạt bước đi chiến lược:
+- Bình thường hóa với Trung Quốc (1991)
+- Gia nhập ASEAN (28-7-1995)
+- Bình thường hóa quan hệ với Hoa Kỳ (11-7-1995)
+
+**Liên hệ thực tiễn (Hôm nay):**
+Luật Đầu tư 1988 là "cánh cửa" đầu tiên. Tất cả các nhà máy lớn của Samsung, LG, Intel, Canon... và hàng ngàn dự án FDI khác chính là kết quả của việc "mở cửa" này:
+
+**Các dự án FDI lớn:**
+- **Samsung:** Đầu tư hàng chục tỷ USD, biến Việt Nam thành trung tâm sản xuất điện tử lớn
+- **LG:** Nhà máy sản xuất điện tử tiêu dùng và linh kiện
+- **Intel:** Nhà máy sản xuất chip và linh kiện điện tử
+- **Canon, Panasonic, Sony:** Các nhà máy sản xuất thiết bị điện tử
+
+**Hội nhập quốc tế:**
+Việc gia nhập ASEAN và bình thường hóa quan hệ đã "phá thế bị bao vây cấm vận". Ngày nay:
+- Người Việt Nam có thể đi du lịch tự do trong khối ASEAN
+- Hàng hóa Việt Nam có mặt tại Mỹ, Trung Quốc và khắp thế giới
+- Việt Nam là thành viên của WTO, CPTPP, EVFTA và nhiều hiệp định thương mại tự do khác
+
+Đây chính là di sản của tầm nhìn đối ngoại giai đoạn 1991-1996.`,
+    tags: ["FDI", "Hội nhập", "ASEAN"],
+    color: "from-blue-500 to-blue-600",
+    bgColor: "bg-blue-50",
+    textColor: "text-blue-800",
   },
 ];
 
 export const vietnamAchievements = [
   {
-    title: "Giành độc lập dân tộc",
-    description: "Lãnh đạo cuộc kháng chiến chống thực dân Pháp và đế quốc Mỹ",
+    title: "Ra khỏi khủng hoảng",
+    description: "Sau 10 năm Đổi Mới (1986-1996), Việt Nam đã vượt qua khủng hoảng kinh tế-xã hội nghiêm trọng",
     icon: Flag,
   },
   {
-    title: "Xây dựng chế độ XHCN",
-    description: "Thực hiện cải cách ruộng đất, công nghiệp hóa đất nước",
+    title: "Nền tảng phát triển",
+    description: "Chuẩn bị tiền đề cho công nghiệp hóa, hiện đại hóa đất nước trong các thập kỷ tiếp theo",
     icon: Building2,
   },
   {
-    title: "Đổi mới và hội nhập",
+    title: "Hội nhập quốc tế",
     description:
-      "Lãnh đạo công cuộc đổi mới, xây dựng nền kinh tế thị trường định hướng XHCN",
+      "Phá vỡ thế bao vây cấm vận, gia nhập ASEAN, bình thường hóa với Mỹ và Trung Quốc",
     icon: Star,
   },
 ];
+
+export default { impacts, vietnamAchievements };
